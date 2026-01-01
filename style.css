@@ -1,0 +1,47 @@
+body{
+    background-color: #EED6BA;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#app{
+    background-color: #fff;
+    width:680px;
+    padding: 20px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+input{
+    padding:8px;
+    width:300px
+}
+
+.complete{
+    text-decoration: line-through;
+    color: grey;
+}
+
+ul{
+    margin-left: 0px;
+
+}
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.actions button{
+    padding: 6px 8px;
+    margin-left: 10px;
+}
